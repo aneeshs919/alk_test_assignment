@@ -29,7 +29,7 @@ const Header: React.FC = () => {
       </div>
       {showHamburger ? (
         <div className='fixed bg-black top-0 right-0 left-0 h-screen flex flex-col w-full'>
-          <div className='flex justify-between items-center p-6 '>
+          <div className='flex justify-between items-center p-6 w-[320px]'>
             <Image src='/logo.png' alt='Vercel Logo' width={101} height={23} />
             <div onClick={handleHamburger} className='text-2xl'>
               X
