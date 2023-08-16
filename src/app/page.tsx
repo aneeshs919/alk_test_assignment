@@ -22,7 +22,7 @@ export default function Home () {
               description={data.description}
               icon={data.icon}
               photo={data.image}
-              className='lg:w-1/3'
+              className='w-full lg:w-1/3'
             />
           ))}
         </div>
@@ -34,7 +34,7 @@ export default function Home () {
               description={data.description}
               icon={data.icon}
               photo={data.image}
-              className='lg:w-1/3'
+              className='w-full lg:w-1/3'
             />
           ))}
         </div>
@@ -46,7 +46,7 @@ export default function Home () {
             }
             icon={icon}
             photo={frame1}
-            className='w-9/12 flex flex-col lg:flex-row gap-5'
+            className='w-full lg:w-9/12 flex flex-col lg:flex-row gap-5'
           />
         </div>
         <About />
@@ -64,7 +64,7 @@ export default function Home () {
               description={data.description}
               icon={data.icon}
               photo={data.image}
-              className='lg:w-1/3'
+              className='w-full lg:w-1/3'
             />
           ))}
         </div>
@@ -76,7 +76,7 @@ export default function Home () {
             }
             icon={icon}
             photo={frame2}
-            className='w-9/12 flex-col lg:flex-row gap-5'
+            className=' w-full lg:w-9/12  flex flex-col lg:flex-row gap-5'
           />
         </div>
       </div>

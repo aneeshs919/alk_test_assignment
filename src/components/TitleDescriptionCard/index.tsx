@@ -9,7 +9,7 @@ interface TitleDescriptionCardProps {
 }
 const TitleDescriptionCard: React.FC<TitleDescriptionCardProps> = props => {
   return (
-    <div className={`${props.className} w-full mt-8 lg:mt-0`}>
+    <div className={`${props.className} mt-8 lg:mt-0`}>
       {props.photo ? (
         <Image className='mb-8' src={props.photo} alt={props.title} />
       ) : null}
